@@ -1,0 +1,52 @@
+Virtual User Script started at : 12/05/2014 17:08:26
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 11.52.0 for WINXP; build 4391 (Apr 23 2013 18:55:40)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "\\global.lloydstsb.com\Home\BRISHARD02\1151294\DATA\Repositories\Samples\Arrays\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(39): Received Regular Expression [<li><a.*?>(.+?)</a></li>], ordinal [0], case-sensitive [true], parameter [Element], size of buffer to scan: [234].
+Action.c(52): =================
+Action.c(53): Enumerate entire array
+Action.c(56): Instance 1 = 'Arts'
+Action.c(56): Instance 2 = 'Biography'
+Action.c(56): Instance 3 = 'Geography'
+Action.c(60): -----------------
+Action.c(61): Six random samples
+Action.c(64): Random instance 'Geography'
+Action.c(64): Random instance 'Arts'
+Action.c(64): Random instance 'Biography'
+Action.c(64): Random instance 'Geography'
+Action.c(64): Random instance 'Biography'
+Action.c(64): Random instance 'Geography'
+Action.c(67): =================
+Action.c(94): =================
+Action.c(95): Enumerate manual array
+Action.c(98): Instance 1 = 'Value is 1'
+Action.c(98): Instance 2 = 'Value is 2'
+Action.c(98): Instance 3 = 'Value is 3'
+Action.c(98): Instance 4 = 'Value is 4'
+Action.c(98): Instance 5 = 'Value is 5'
+Action.c(98): Instance 6 = 'Value is 6'
+Action.c(98): Instance 7 = 'Value is 7'
+Action.c(98): Instance 8 = 'Value is 8'
+Action.c(98): Instance 9 = 'Value is 9'
+Action.c(98): Instance 10 = 'Value is 10'
+Action.c(102): -----------------
+Action.c(103): Six random samples
+Action.c(106): Random instance 'Value is 4'
+Action.c(106): Random instance 'Value is 10'
+Action.c(106): Random instance 'Value is 3'
+Action.c(106): Random instance 'Value is 10'
+Action.c(106): Random instance 'Value is 4'
+Action.c(106): Random instance 'Value is 7'
+Action.c(109): =================
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,22 @@
+Virtual User Script started at : 5/27/2014 3:30:20 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Data\LoadRunnerScripts\Writing_Data\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(24): Starting appendlog() test with 100 iterations
+Action.c(32): appendlog() took 0.733325 seconds
+Action.c(58): Starting buffered test with 100 iterations
+Action.c(65): buffered took 0.011500 seconds
+Action.c(68): Starting unbuffered test with 100 iterations
+Action.c(76): unbuffered took 0.018978 seconds
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

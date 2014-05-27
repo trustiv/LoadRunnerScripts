@@ -1,0 +1,19 @@
+Virtual User Script started at : 5/27/2014 4:34:49 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(41): Face    Frequency
+Action.c(42): 1          991
+Action.c(43): 2          991
+Action.c(44): 3          975
+Action.c(45): 4         1034
+Action.c(46): 5         1012
+Action.c(47): 6          997
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
