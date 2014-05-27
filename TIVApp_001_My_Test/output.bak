@@ -1,0 +1,40 @@
+Virtual User Script started at : 5/21/2014 3:24:14 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Users\gordona.TRUSTIV\Documents\VuGen\Scripts\DeleteMe\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+Action.c(9): Notify: Saving Parameter "pTansactionName = TIVApp_001_001_Homepage".
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(16): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(22): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(22): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(24): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(24): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1"
+Action.c(24): Notify: Saving Parameter "cServerName = server1".
+Action.c(24): Found resource "http://127.0.0.1/TrustiV-4k.jpg" in HTML "http://127.0.0.1/"  	[MsgId: MMSG-26659]
+Action.c(24): Continuing after Error -26366: "Text=Test site." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(24): web_url("Homepage") highest severity level was "continue on error", 6589 body bytes, 607 header bytes  	[MsgId: MMSG-26388]
+Action.c(24): Continuing after error in Vuser script.
+Action.c(41): TIV: Msg Level was: 20
+Action.c(45): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(45): Notify: Parameter Substitution: parameter "cServerName" =  "server1"
+TIV: TIVApp_001_001_Homepage loaded via server: server1
+Action.c(49): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(49): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Fail" status (Duration: 0.5136 Wasted Time: 0.2657).
+Action.c(51): Notify: Transaction "_TIVApp_001_My_Test" ended with "Fail" status (Duration: 0.6844 Wasted Time: 0.2657).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
