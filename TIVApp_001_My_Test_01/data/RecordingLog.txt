@@ -1,0 +1,28 @@
+[API Trapper      ( c80: f98)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      ( 110: 834)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer ( 110: e00)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 110: e00)] Load Network Traffic Analyzers:
+[Network Analyzer ( 110: e00)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer ( 110: e00)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer ( 110: e00)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer ( 110: e00)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer ( 110: e00)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer ( 110: e00)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer ( 110: e00)]     Analyzer Module: local_server (value=)
+[Network Analyzer ( 110: e00)] ------------------------------------------------------------------------------------------
+[Network Analyzer ( 110: 1ec)] Address lookup for TRUSTIV-MAC-W8 = 192.168.197.133
+[Network Analyzer ( 110: 6b4)] Address lookup for TRUSTIV-MAC-W8 = 192.168.197.133
+[Network Analyzer ( 110: 158)] Address lookup for TRUSTIV-MAC-W8 = 192.168.197.133
+[Network Analyzer ( 110: a74)] Address lookup for TRUSTIV-MAC-W8 = 192.168.197.133
+[Network Analyzer ( 110: 158)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer ( 110: a74)] Request Connection: Remote Server @ 127.0.0.1:80   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      ( 110: 1ec)] "GET /"   
+[Network Analyzer ( 110: 1ec)]   (Sid:  1) Client -> Server @ : 303 bytes (Service=HTTP)
+[Network Analyzer ( 110: 1ec)]   (Sid:  1) Server -> Client : 651 bytes  (Service=HTTP)
+[Web Request      ( 110: 1ec)] "GET /TrustiV-4k.jpg"   
+[Network Analyzer ( 110: 1ec)]   (Sid:  1) Client -> Server @ : 384 bytes (Service=HTTP)
+[Network Analyzer ( 110: 1ec)]   (Sid:  1) Server -> Client : 6544 bytes  (Service=HTTP)
+[Web Request      ( 110: 1ec)] "GET /favicon.ico"   
+[Network Analyzer ( 110: 1ec)]   (Sid:  1) Client -> Server @ : 261 bytes (Service=HTTP)
+[Network Analyzer ( 110: 1ec)]   (Sid:  1) Server -> Client : 423 bytes  (Service=HTTP)
+[Network Analyzer ( 110: 1ec)]   (Sid:  1) Connection Terminated (by Server)

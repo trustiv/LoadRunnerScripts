@@ -1,0 +1,164 @@
+Virtual User Script started at : 5/27/2014 1:33:57 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Data\LoadRunnerScripts\TIVApp_001_My_Test\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+Action.c(9): Notify: Saving Parameter "pTansactionName = TIVApp_001_001_Homepage".
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(16): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(28): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(28): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(30): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(30): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1"
+Action.c(30): Notify: Saving Parameter "cServerName = server2".
+Action.c(30): Notify: Saving Parameter "cVersion = V0.1".
+Action.c(30): Found resource "http://127.0.0.1/TrustiV-4k.jpg" in HTML "http://127.0.0.1/"  	[MsgId: MMSG-26659]
+Action.c(30): Registered web_reg_find successful for "Text=Test site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(30): web_url("Homepage") was successful, 6609 body bytes, 607 header bytes  	[MsgId: MMSG-26386]
+Action.c(47): TIVMsg: Msg Level was: 20
+Action.c(51): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(51): Notify: Parameter Substitution: parameter "cServerName" =  "server2"
+TIVMsg: TIVApp_001_001_Homepage loaded via server: server2
+Action.c(55): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(55): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Pass" status (Duration: 1.4864 Wasted Time: 0.6097).
+Action.c(57): Notify: Transaction "_TIVApp_001_My_Test" ended with "Pass" status (Duration: 1.5843 Wasted Time: 0.6097).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+Action.c(9): Notify: Saving Parameter "pTansactionName = TIVApp_001_001_Homepage".
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(16): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(28): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(28): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(30): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(30): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1"
+Action.c(30): Notify: Saving Parameter "cServerName = server1".
+Action.c(30): Notify: Saving Parameter "cVersion = V0.2".
+Action.c(30): Found resource "http://127.0.0.1/TrustiV-4k.jpg" in HTML "http://127.0.0.1/"  	[MsgId: MMSG-26659]
+Action.c(30): Continuing after Error -26366: "Text=Test site." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(30): web_url("Homepage") highest severity level was "continue on error", 6621 body bytes, 607 header bytes  	[MsgId: MMSG-26388]
+Action.c(30): Continuing after error in Vuser script.
+Action.c(47): TIVMsg: Msg Level was: 20
+Action.c(51): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(51): Notify: Parameter Substitution: parameter "cServerName" =  "server1"
+TIVMsg: TIVApp_001_001_Homepage loaded via server: server1
+Action.c(55): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(55): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Fail" status (Duration: 0.4076 Wasted Time: 0.0050).
+Action.c(57): Notify: Transaction "_TIVApp_001_My_Test" ended with "Fail" status (Duration: 0.4105 Wasted Time: 0.0050).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+Action.c(9): Notify: Saving Parameter "pTansactionName = TIVApp_001_001_Homepage".
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(16): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(28): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(28): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(30): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(30): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1"
+Action.c(30): Notify: Saving Parameter "cServerName = server2".
+Action.c(30): Notify: Saving Parameter "cVersion = V0.1".
+Action.c(30): Found resource "http://127.0.0.1/TrustiV-4k.jpg" in HTML "http://127.0.0.1/"  	[MsgId: MMSG-26659]
+Action.c(30): Registered web_reg_find successful for "Text=Test site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(30): web_url("Homepage") was successful, 6609 body bytes, 607 header bytes  	[MsgId: MMSG-26386]
+Action.c(47): TIVMsg: Msg Level was: 20
+Action.c(51): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(51): Notify: Parameter Substitution: parameter "cServerName" =  "server2"
+TIVMsg: TIVApp_001_001_Homepage loaded via server: server2
+Action.c(55): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(55): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Pass" status (Duration: 1.2173 Wasted Time: 0.1478).
+Action.c(57): Notify: Transaction "_TIVApp_001_My_Test" ended with "Pass" status (Duration: 1.2202 Wasted Time: 0.1478).
+Ending action Action.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+Action.c(9): Notify: Saving Parameter "pTansactionName = TIVApp_001_001_Homepage".
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(16): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(28): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(28): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(30): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(30): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1"
+Action.c(30): Notify: Saving Parameter "cServerName = server1".
+Action.c(30): Notify: Saving Parameter "cVersion = V0.2".
+Action.c(30): Found resource "http://127.0.0.1/TrustiV-4k.jpg" in HTML "http://127.0.0.1/"  	[MsgId: MMSG-26659]
+Action.c(30): Continuing after Error -26366: "Text=Test site." not found for web_reg_find  	[MsgId: MERR-26366]
+Action.c(30): web_url("Homepage") highest severity level was "continue on error", 6621 body bytes, 607 header bytes  	[MsgId: MMSG-26388]
+Action.c(30): Continuing after error in Vuser script.
+Action.c(47): TIVMsg: Msg Level was: 20
+Action.c(51): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(51): Notify: Parameter Substitution: parameter "cServerName" =  "server1"
+TIVMsg: TIVApp_001_001_Homepage loaded via server: server1
+Action.c(55): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(55): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Fail" status (Duration: 1.2954 Wasted Time: 0.1426).
+Action.c(57): Notify: Transaction "_TIVApp_001_My_Test" ended with "Fail" status (Duration: 1.2982 Wasted Time: 0.1426).
+Ending action Action.
+Ending iteration 4.
+Starting iteration 5.
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+Action.c(9): Notify: Saving Parameter "pTansactionName = TIVApp_001_001_Homepage".
+Action.c(11): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(11): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(16): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(16): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(22): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(22): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(28): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(28): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(30): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(30): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1"
+Action.c(30): Notify: Saving Parameter "cServerName = server2".
+Action.c(30): Notify: Saving Parameter "cVersion = V0.1".
+Action.c(30): Found resource "http://127.0.0.1/TrustiV-4k.jpg" in HTML "http://127.0.0.1/"  	[MsgId: MMSG-26659]
+Action.c(30): Registered web_reg_find successful for "Text=Test site." (count=1)  	[MsgId: MMSG-26364]
+Action.c(30): web_url("Homepage") was successful, 6609 body bytes, 607 header bytes  	[MsgId: MMSG-26386]
+Action.c(47): TIVMsg: Msg Level was: 20
+Action.c(51): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(51): Notify: Parameter Substitution: parameter "cServerName" =  "server2"
+TIVMsg: TIVApp_001_001_Homepage loaded via server: server2
+Action.c(55): Notify: Parameter Substitution: parameter "pTansactionName" =  "TIVApp_001_001_Homepage"
+Action.c(55): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Pass" status (Duration: 1.2170 Wasted Time: 0.1262).
+Action.c(57): Notify: Transaction "_TIVApp_001_My_Test" ended with "Pass" status (Duration: 1.2199 Wasted Time: 0.1262).
+Ending action Action.
+Ending iteration 5.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

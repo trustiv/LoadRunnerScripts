@@ -1,0 +1,14 @@
+[parameter:pTimeStamp]
+Format="%d-%b-%Y %H:%M:%S.000"
+ParamName="pTimeStamp"
+GenerateNewVal="EachOccurrence"
+Type="Time"
+OriginalValue=""
+OffsetUI="0"
+WorkingDaysOn="0"
+Offset=""
+[parameter:pVuserID]
+Format="%s"
+OriginalValue=""
+Type="Userid"
+ParamName="pVuserID"

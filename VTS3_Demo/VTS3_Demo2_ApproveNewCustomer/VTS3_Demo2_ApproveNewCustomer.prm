@@ -1,0 +1,8 @@
+[parameter:password]
+Format="%lu"
+ParamName="password"
+GenerateNewVal="EachOccurrence"
+Type="Random"
+MaxValue="10000"
+OriginalValue=""
+MinValue="1"

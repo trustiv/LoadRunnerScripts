@@ -1,0 +1,47 @@
+Virtual User Script started at : 6/3/2014 4:36:36 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Data\LoadRunnerScripts\VTS3_Demo\VTS3_Demo2_ApproveNewCustomer\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(20): Notify: Transaction "BP3_ApproveNew_GetData" started.
+Action.c(36): Notify: Saving Parameter "address = 14 Taylor St".
+Action.c(36): Notify: Saving Parameter "first_name = Aleshia".
+Action.c(36): Notify: Saving Parameter "postal = CT2 7PP".
+Action.c(36): Notify: Saving Parameter "_VTS_ID = 1_03-Jun-2014 16:34:45.295".
+Action.c(36): Notify: Saving Parameter "last_name = Tomkiewicz".
+Action.c(36): Notify: Saving Parameter "company_name = Alan D Rosenburg Cpa Pc".
+Action.c(36): Notify: Saving Parameter "city = St. Stephens Ward".
+Action.c(36): Notify: Saving Parameter "county = Kent".
+Action.c(36): Notify: Saving Parameter "phone1 = 01835-703597".
+Action.c(36): Notify: Saving Parameter "email = atomkiewicz@hotmail.com".
+Action.c(36): Notify: Saving Parameter "phone2 = 01944-369967".
+Action.c(36): Notify: Saving Parameter "web = http://www.alandrosenburgcpapc.co.uk".
+Action.c(39): Notify: Transaction "BP3_ApproveNew_GetData" ended with "Pass" status (Duration: 0.0123 Wasted Time: 0.0088).
+Action.c(79): Notify: Parameter Substitution: parameter "first_name" =  "Aleshia"
+Action.c(82): Notify: Parameter Substitution: parameter "first_name" =  "Aleshia"
+Action.c(82): Notify: Parameter Substitution: parameter "last_name" =  "Tomkiewicz"
+Action.c(82): Aleshia Tomkiewicz Awaiting approval
+Action.c(57): Notify: Transaction "BP4_ApproveNew_WriteData" started.
+Action.c(60): Notify: Parameter Substitution: parameter "_VTS_ID" =  "1_03-Jun-2014 16:34:45.295"
+Action.c(60): Notify: Parameter Substitution: parameter "first_name" =  "Aleshia"
+Action.c(60): Notify: Parameter Substitution: parameter "last_name" =  "Tomkiewicz"
+Action.c(60): Notify: Parameter Substitution: parameter "first_name" =  "Aleshia"
+Action.c(60): Notify: Parameter Substitution: parameter "last_name" =  "Tomkiewicz"
+Action.c(60): Notify: Parameter Substitution: parameter "password" =  "288"
+Action.c(65): Notify: Transaction "BP4_ApproveNew_WriteData" ended with "Pass" status (Duration: 0.0059 Wasted Time: 0.0057).
+Action.c(89): Notify: Parameter Substitution: parameter "first_name" =  "Aleshia"
+Action.c(89): Notify: Parameter Substitution: parameter "last_name" =  "Tomkiewicz"
+Action.c(89): Notify: Parameter Substitution: parameter "first_name" =  "Aleshia"
+Action.c(89): Notify: Parameter Substitution: parameter "last_name" =  "Tomkiewicz"
+Action.c(89): Aleshia Tomkiewicz approved, username is [Aleshia_Tomkiewicz]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

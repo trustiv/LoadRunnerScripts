@@ -1,0 +1,242 @@
+Virtual User Script started at : 22/05/2014 15:53:27	[MsgId: MMSG-15967]
+Starting action vuser_init.	[MsgId: MMSG-15919]
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Users\Richard\AppData\Local\Temp\lr5tmpdiriIm.338\lrcfgj3w.339\cfgYW6.346"  	[MsgId: MMSG-27141]
+Ending action vuser_init.	[MsgId: MMSG-15918]
+Running Vuser...	[MsgId: MMSG-15964]
+Starting iteration 1.	[MsgId: MMSG-15968]
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0055 Wasted Time: 0.0053).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Luis . Last name was : Ear	[MsgId: MMSG-17999]
+Luis Ear Registered as a new customer
+Action.c(72): lr_think_time: 5.93 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0086 Wasted Time: 0.0085).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Luis Ear awaiting approval
+Action.c(79): lr_think_time: 4.40 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 1.	[MsgId: MMSG-15965]
+Starting iteration 2.	[MsgId: MMSG-15968]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0057 Wasted Time: 0.0054).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Ciara . Last name was : Cobbley	[MsgId: MMSG-17999]
+Ciara Cobbley Registered as a new customer
+Action.c(72): lr_think_time: 4.37 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0067 Wasted Time: 0.0065).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Ciara Cobbley awaiting approval
+Action.c(79): lr_think_time: 4.43 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 2.	[MsgId: MMSG-15965]
+Starting iteration 3.	[MsgId: MMSG-15968]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0062 Wasted Time: 0.0059).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Alethea . Last name was : Mould	[MsgId: MMSG-17999]
+Alethea Mould Registered as a new customer
+Action.c(72): lr_think_time: 4.20 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0060 Wasted Time: 0.0059).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Alethea Mould awaiting approval
+Action.c(79): lr_think_time: 5.63 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 3.	[MsgId: MMSG-15965]
+Starting iteration 4.	[MsgId: MMSG-15968]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0087 Wasted Time: 0.0083).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Margurite . Last name was : Loperfido	[MsgId: MMSG-17999]
+Margurite Loperfido Registered as a new customer
+Action.c(72): lr_think_time: 5.83 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0036 Wasted Time: 0.0036).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Margurite Loperfido awaiting approval
+Action.c(79): lr_think_time: 5.79 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 4.	[MsgId: MMSG-15965]
+Starting iteration 5.	[MsgId: MMSG-15968]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0061 Wasted Time: 0.0059).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Vernice . Last name was : Sperazza	[MsgId: MMSG-17999]
+Vernice Sperazza Registered as a new customer
+Action.c(72): lr_think_time: 5.94 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0032 Wasted Time: 0.0031).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Vernice Sperazza awaiting approval
+Action.c(79): lr_think_time: 5.21 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 5.	[MsgId: MMSG-15965]
+Starting iteration 6.	[MsgId: MMSG-15968]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0076 Wasted Time: 0.0074).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Vicente . Last name was : Rawicki	[MsgId: MMSG-17999]
+Vicente Rawicki Registered as a new customer
+Action.c(72): lr_think_time: 5.79 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0082 Wasted Time: 0.0081).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Vicente Rawicki awaiting approval
+Action.c(79): lr_think_time: 4.89 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 6.	[MsgId: MMSG-15965]
+Starting iteration 7.	[MsgId: MMSG-15968]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0931 Wasted Time: 0.0928).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Craig . Last name was : Cua	[MsgId: MMSG-17999]
+Craig Cua Registered as a new customer
+Action.c(72): lr_think_time: 4.38 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0114 Wasted Time: 0.0113).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Craig Cua awaiting approval
+Action.c(79): lr_think_time: 4.83 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 7.	[MsgId: MMSG-15965]
+Starting iteration 8.	[MsgId: MMSG-15968]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0072 Wasted Time: 0.0069).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Jenise . Last name was : Dulle	[MsgId: MMSG-17999]
+Jenise Dulle Registered as a new customer
+Action.c(72): lr_think_time: 5.04 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0042 Wasted Time: 0.0041).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Jenise Dulle awaiting approval
+Action.c(79): lr_think_time: 5.58 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 8.	[MsgId: MMSG-15965]
+Starting iteration 9.	[MsgId: MMSG-15968]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0074 Wasted Time: 0.0070).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Marylin . Last name was : Cornelison	[MsgId: MMSG-17999]
+Marylin Cornelison Registered as a new customer
+Action.c(72): lr_think_time: 4.92 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0105 Wasted Time: 0.0104).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Marylin Cornelison awaiting approval
+Action.c(79): lr_think_time: 4.50 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 9.	[MsgId: MMSG-15965]
+Starting iteration 10.	[MsgId: MMSG-15968]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0041 Wasted Time: 0.0039).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Marget . Last name was : Gunst	[MsgId: MMSG-17999]
+Marget Gunst Registered as a new customer
+Action.c(72): lr_think_time: 4.69 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0084 Wasted Time: 0.0083).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Marget Gunst awaiting approval
+Action.c(79): lr_think_time: 4.46 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 10.	[MsgId: MMSG-15965]
+Starting iteration 11.	[MsgId: MMSG-15968]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(16): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(18): Notify: Transaction "GetSourceData_VTS1" started.	[MsgId: MMSG-16999]
+Action.c(23): Row retrieval ret=0
+	[MsgId: MMSG-17999]
+Action.c(25): Notify: Transaction "GetSourceData_VTS1" ended with "Pass" status (Duration: 0.0093 Wasted Time: 0.0088).	[MsgId: MMSG-16871]
+Action.c(28): First name was  : Annett . Last name was : Bunselmeyer	[MsgId: MMSG-17999]
+Annett Bunselmeyer Registered as a new customer
+Action.c(72): lr_think_time: 4.40 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Action.c(44): pvci=0
+	[MsgId: MMSG-17999]
+Action.c(46): Notify: Transaction "PutSourceData_VTS2" started.	[MsgId: MMSG-16999]
+Action.c(53): Notify: Transaction "PutSourceData_VTS2" ended with "Pass" status (Duration: 0.0086 Wasted Time: 0.0085).	[MsgId: MMSG-16871]
+Action.c(55): Row submission ret=0
+	[MsgId: MMSG-17999]
+New Customer Annett Bunselmeyer awaiting approval
+Action.c(79): lr_think_time: 4.14 seconds (recorded think time was 5.00 seconds).	[MsgId: MMSG-15947]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]

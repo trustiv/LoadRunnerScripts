@@ -1,0 +1,22 @@
+[parameter:pTimeStamp]
+Format="%d-%b-%Y %H:%M:%S.000"
+ParamName="pTimeStamp"
+GenerateNewVal="EachOccurrence"
+Type="Time"
+OriginalValue=""
+OffsetUI="0"
+Offset=""
+WorkingDaysOn="0"
+[parameter:pVuserID]
+Format="%s"
+Type="Userid"
+OriginalValue=""
+ParamName="pVuserID"
+[parameter:password]
+Format="%lu"
+ParamName="password"
+GenerateNewVal="EachOccurrence"
+Type="Random"
+MaxValue="10000"
+OriginalValue=""
+MinValue="1"
