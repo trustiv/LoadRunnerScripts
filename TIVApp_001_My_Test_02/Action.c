@@ -6,8 +6,7 @@ Action()
 	
 	lr_start_transaction("_TIVApp_001_My_Test");
 	
-	fRegisterChecks("class=\"scrid\">","</span>", "TIVApp_001_001_Homepage");
-//	fRegisterChecks("<title>","</title>", "TIVApp_001_001_Homepage");
+	fRegisterChecks("LB=class=\"scrid\">","RB=</span>", "TIVApp_001_001_Homepage");
  
 	web_url("Homepage",
 		"URL=http://{pURL}/", 
@@ -19,7 +18,7 @@ Action()
 		LAST);
 	
 	fVerifyScreen();
-	
+
 	lr_end_transaction("_TIVApp_001_My_Test", LR_AUTO);
 	
 	return 0;

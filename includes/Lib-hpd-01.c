@@ -11,32 +11,11 @@ void fRegisterChecks(char* sTitleLeftBound, char* sTitleRightBound, char* sNewTr
 	// sTitleLeftBound = text to check for the apps standard title LB=
 	// sNewTransactionName - Save this a pCurrentTransaction and start the transaction
 
-	char * sLB;
-	char * sRB;
-	// Lets use parameters to build a standard set of checks and starts
-
-	if((sRB = (char *)malloc((strlen(sTitleRightBound) + strlen("LB=") + 1)*sizeof(char)))==NULL){
-
-		return;
-	}else {
-		sprintf(sRB,"RB=%s",sTitleRightBound);
-	}
-
-	if((sLB = (char *)malloc((strlen(sTitleLeftBound) + strlen("LB=") + 1)*sizeof(char)))==NULL){
-		return;
-	}else {
-		sprintf(sLB,"LB=%s",sTitleLeftBound);
-	}
-
 	web_reg_save_param("cPageTitle",
-		sLB,
-		sRB,
+		sTitleLeftBound,
+		sTitleRightBound,
 		"Notfound=warning",
 		LAST);
-
-	// free the memory for the buffer variable
-	free(sRB);
-	free(sLB);
 
 	web_reg_save_param("cVersion",
 		"LB=version\">",
@@ -62,6 +41,66 @@ void fRegisterChecks(char* sTitleLeftBound, char* sTitleRightBound, char* sNewTr
 
 }
 
+ void fVerifyScreen(){
+	int iDebug;
+	char * sBuf;
+	bool bIsErr = false;
+
+	// Lets first check if the standard err cErr has a value
+
+	if(strcmp(lr_eval_string("{cErr}"),"") != 0){
+		// OK We have an error - standard thing to do is close off the current transaction
+		lr_end_transaction(lr_eval_string("{pTransactionName}"), LR_FAIL);
+		// That done the amount of wasted time we have in the transaction is minimised.
+		// Now we need to log the error.
+
+		lr_error_message("TIVErr: Error found Server:%s, Page:%s, Error: %s, Version:%s", lr_eval_string("{cServerName}"), lr_eval_string("{cPageTitle}"),lr_eval_string("{cErr}"), lr_eval_string("{cVersion}"));
+
+		// If we have a VTS server collecting errors lets use that. We'll use another function, from below
+
+	// Log Levels:
+	// LR_MSG_CLASS_DISABLE_LOG
+	// LR_MSG_CLASS_BRIEF_LOG
+	// LR_MSG_CLASS_EXTENDED_LOG
+	// LR_MSG_CLASS_RESULT_DATA
+	// LR_MSG_CLASS_PARAMETERS
+	// LR_MSG_CLASS_FULL_TRACE
+		iDebug = lr_get_debug_message();
+
+		lr_set_debug_message(LR_MSG_CLASS_EXTENDED_LOG, LR_SWITCH_ON);
+
+		lr_debug_message(LR_MSG_CLASS_EXTENDED_LOG | LR_MSG_CLASS_RESULT_DATA,"TIVMsg: %s loaded via server: %s", lr_eval_string("{pTransactionName}"), lr_eval_string("{cServerName}"));
+
+		lr_set_debug_message(iDebug, LR_SWITCH_ON);
+
+		fLogErrorToVTS();
+
+		bIsErr = true;
+	}
+/*
+	if(strcmp(lr_eval_string("{cVersion}"),sAppVersion) != 0){
+		lr_end_transaction(lr_eval_string("{pTransactionName}"), LR_FAIL);
+
+		sprintf(sBuf, "TIVMsg: Application version incorrect, expected %s, found %s", sAppVersion, lr_eval_string("{cVersion}"));
+
+		lr_save_string(sBuf, "cErr");
+
+		fLogErrorToVTS();
+
+		bIsErr  = true;
+
+	}*/
+/*
+	if (bIsErr){
+		lr_exit(LR_EXIT_ITERATION_AND_CONTINUE, LR_FAIL);
+	}else {
+		// OK looks like we passed.
+
+		lr_end_transaction(lr_eval_string("{pTransactionName}"), LR_AUTO);
+	}
+	*/
+}
+
 void fLogErrorToVTS(){
 	//Details for specific VTS server (used for source data)
 	char  *VtsErrServer = "127.0.0.1";
@@ -79,7 +118,7 @@ void fLogErrorToVTS(){
 		return;
 	}
     ret = vtc_send_row1(pvci, "VUID;Server;PageTitle;Err",
-	        "{pVUID};{cServer};{cPageTitle};{cErr}", ";",
+	        "{pVUID};{cServerName};{cPageTitle};{cErr}", ";",
 	        VTSEND_SAME_ROW,
        	&status);
 
