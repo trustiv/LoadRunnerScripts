@@ -1,0 +1,6 @@
+Virtual User Script started at : 6/4/2014 11:46:15 AM	[MsgId: MMSG-15967]
+Starting action vuser_init.	[MsgId: MMSG-15919]
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Users\gordona.TRUSTIV\AppData\Local\Temp\lr5tmpdirmqu.100\lrcfgd43.101\cfgCGb.102"  	[MsgId: MMSG-27141]
+vuser_init.c(16): Notify: Saving Parameter "pVUID = TIVApp_001_My_Test_02:8".	[MsgId: MMSG-13798]

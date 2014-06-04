@@ -41,70 +41,10 @@ void fRegisterChecks(char* sTitleLeftBound, char* sTitleRightBound, char* sNewTr
 
 }
 
- void fVerifyScreen(){
-	int iDebug;
-	char * sBuf;
-	bool bIsErr = false;
-
-	// Lets first check if the standard err cErr has a value
-
-	if(strcmp(lr_eval_string("{cErr}"),"") != 0){
-		// OK We have an error - standard thing to do is close off the current transaction
-		lr_end_transaction(lr_eval_string("{pTransactionName}"), LR_FAIL);
-		// That done the amount of wasted time we have in the transaction is minimised.
-		// Now we need to log the error.
-
-		lr_error_message("TIVErr: Error found Server:%s, Page:%s, Error: %s, Version:%s", lr_eval_string("{cServerName}"), lr_eval_string("{cPageTitle}"),lr_eval_string("{cErr}"), lr_eval_string("{cVersion}"));
-
-		// If we have a VTS server collecting errors lets use that. We'll use another function, from below
-
-	// Log Levels:
-	// LR_MSG_CLASS_DISABLE_LOG
-	// LR_MSG_CLASS_BRIEF_LOG
-	// LR_MSG_CLASS_EXTENDED_LOG
-	// LR_MSG_CLASS_RESULT_DATA
-	// LR_MSG_CLASS_PARAMETERS
-	// LR_MSG_CLASS_FULL_TRACE
-		iDebug = lr_get_debug_message();
-
-		lr_set_debug_message(LR_MSG_CLASS_EXTENDED_LOG, LR_SWITCH_ON);
-
-		lr_debug_message(LR_MSG_CLASS_EXTENDED_LOG | LR_MSG_CLASS_RESULT_DATA,"TIVMsg: %s loaded via server: %s", lr_eval_string("{pTransactionName}"), lr_eval_string("{cServerName}"));
-
-		lr_set_debug_message(iDebug, LR_SWITCH_ON);
-
-		fLogErrorToVTS();
-
-		bIsErr = true;
-	}
-/*
-	if(strcmp(lr_eval_string("{cVersion}"),sAppVersion) != 0){
-		lr_end_transaction(lr_eval_string("{pTransactionName}"), LR_FAIL);
-
-		sprintf(sBuf, "TIVMsg: Application version incorrect, expected %s, found %s", sAppVersion, lr_eval_string("{cVersion}"));
-
-		lr_save_string(sBuf, "cErr");
-
-		fLogErrorToVTS();
-
-		bIsErr  = true;
-
-	}*/
-/*
-	if (bIsErr){
-		lr_exit(LR_EXIT_ITERATION_AND_CONTINUE, LR_FAIL);
-	}else {
-		// OK looks like we passed.
-
-		lr_end_transaction(lr_eval_string("{pTransactionName}"), LR_AUTO);
-	}
-	*/
-}
-
 void fLogErrorToVTS(){
 	//Details for specific VTS server (used for source data)
 	char  *VtsErrServer = "127.0.0.1";
-	int   nPortErr = 8899;
+	int   nPortErr = 9000;
 	int ret;
 	unsigned short status = 0;
 
@@ -117,8 +57,8 @@ void fLogErrorToVTS(){
 		lr_error_message("TIVMsg: Error logging failed to contact VTS server on %s:%s",VtsErrServer,nPortErr);
 		return;
 	}
-    ret = vtc_send_row1(pvci, "VUID;Server;PageTitle;Err",
-	        "{pVUID};{cServerName};{cPageTitle};{cErr}", ";",
+    ret = vtc_send_row1(pvci, "VUID;Transaction;Server;PageTitle;Err",
+	        "{pVUID};{pTransactionName};{cServerName};{cPageTitle};{cErr}", ";",
 	        VTSEND_SAME_ROW,
        	&status);
 

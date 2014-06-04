@@ -34,7 +34,7 @@ globals.h=
 [Modified Actions]
 vuser_init=1
 Action=1
-vuser_end=0
+vuser_end=1
 [Recorded Actions]
 vuser_init=0
 Action=1
