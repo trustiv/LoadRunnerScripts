@@ -50,7 +50,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="_TIVApp_001_My_Test"
 [StateManagement]
-LastReplayStatus=0
+LastReplayStatus=2
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1

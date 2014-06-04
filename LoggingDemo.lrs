@@ -21,7 +21,7 @@ Description=
 Hosts=1
 Scripts=1
 Groups=1
-Vusers=10
+Vusers=5
 Tranzactions=0
 Rendezvous=0
 Result_file=c:\data\testresults\res\res.lrr
@@ -190,7 +190,7 @@ SubType=Multi+QTWeb
 ScriptType=9
 Path=C:\Data\LoadRunnerScripts\TIVApp_001_My_Test_02\TIVApp_001_My_Test_02.usr
 EmulatedLocation=
-Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="1"\r\nScreenAvailWidth="1024"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="en-GB"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="en-US"\r\nAutoTransFileLine="1"\r\nRecorderWinCodePage="1252"\r\nUseCustomAgent=1\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2014/05/21 13:39:59"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="about:blank"\r\nScreenWidth="1024"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="en-US,en-GB;q=0.7,en;q=0.3"\r\nProxyHTTPSHost=\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nWinInetReplay="0"\r\nProxyNoLocal="1"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="en-GB"\r\nSimulateCache="1"\r\nDisableAED=0\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nProxyBypass=""\r\nUseDataFormatExtensions="FALSE"\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=443\r\nMaxConnections="0"\r\nScreenHeight="768"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0; Touch)\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=0\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=random\r\nDefaultRunLogic="usp4nh.425"\r\nAutomaticTransactionsPerFunc=0\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\n[AED]\r\nTempAedFile="NO_APP_AT_AED"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nMsgClassData=0\r\nLogOptions=LogExtended\r\nMsgClassFull=0\r\nAutoLog=0\r\n[ThinkTime]\r\nOptions=RANDOM\r\nFactor=1.000000\r\nThinkTimeRandomHigh=120\r\nThinkTimeRandomLow=80\r\nLimit=1\r\nLimitFlag=0\r\n
+Config=[CommandArguments]\r\n[ModemSpeed]\r\nEnableModemSpeed="0"\r\nCustomModemSpeed="1000"\r\nEnableCustomModemSpeed="0"\r\nModemSpeed="128000"\r\n[RtsConfigfuration]\r\nAUTMode="1"\r\n[WEB]\r\nIgnoreContentCachingTypes="1"\r\nCacheAlwaysCheckForNewerPages="0"\r\nStartRecordingIsDst="1"\r\nScreenAvailWidth="1024"\r\nUseBrowserAgent=0\r\nGraphBytesPerSecond="1"\r\nNavigatorBrowserLanguage="en-GB"\r\nGraphHitsPerSecondHttpStatusCodes="1"\r\nUTF8InputOutput="0"\r\nNavigatorUserLanguage="en-US"\r\nAutoTransFileLine="1"\r\nRecorderWinCodePage="1252"\r\nUseCustomAgent=1\r\nProxyUseBrowser="0"\r\nProxyAutoConfigScriptURL=""\r\nProxyPassword=""\r\nSaveSnapshotResources="0"\r\nSearchForImages="1"\r\nProxyUseProxyServer="0"\r\nHttpVer="1.1"\r\nProxyUseProxy="0"\r\nAnalogMode="0"\r\nResetContext="True"\r\nStartRecordingGMT="2014/05/21 13:39:59"\r\nGraphPagesPerSecond="0"\r\nProxyUseAutoConfigScript="0"\r\nProxyUseSame="1"\r\nUserHomePage="about:blank"\r\nScreenWidth="1024"\r\nScreenAvailHeight="728"\r\nBrowserAcceptLanguage="en-US,en-GB;q=0.7,en;q=0.3"\r\nProxyHTTPSHost=\r\nBrowserType="Microsoft Internet Explorer 4.0"\r\nWinInetReplay="0"\r\nProxyNoLocal="1"\r\nProxyHTTPHost=""\r\nNavigatorSystemLanguage="en-GB"\r\nSimulateCache="1"\r\nDisableAED=0\r\nEnableChecks="0"\r\nProxyHTTPPort="443"\r\nWebRecorderVersion="10"\r\nSupportCharset="None"\r\nBrowserAcceptEncoding="gzip, deflate"\r\nProxyBypass=""\r\nUseDataFormatExtensions="FALSE"\r\nKeepAlive="Yes"\r\nProxyUserName=""\r\nCacheHtmlPages="1"\r\nKeepNonTextMimeType="text/xml;text/plain"\r\nSnapshotOnErrorActive=0\r\nProxyHTTPSPort=443\r\nMaxConnections="0"\r\nScreenHeight="768"\r\nFailNonCriticalItem="0"\r\nClearCacheForSimulateNewUser="1"\r\nCustomUserAgent=Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0; Touch)\r\n[Iterations]\r\nRandomMax="90"\r\nRandomMin="60"\r\nIterationPace="IterationASAP"\r\nStartEvery="60"\r\nNumOfIterations="1"\r\n[General]\r\nAutomaticTransactions=0\r\nContinueOnError=1\r\nautomatic_nested_transactions="1"\r\nXlBridgeTimeout="120"\r\nUseThreads=1\r\niter_ends_val=random\r\nDefaultRunLogic=usp6BA.219\r\nAutomaticTransactionsPerFunc=0\r\niter_begins_val=fixed\r\nFailTransOnErrorMsg=0\r\n[AED]\r\nTempAedFile="NO_APP_AT_AED"\r\n[FILTERS]\r\nExcludeFiltersInList=\r\nFilterType=1\r\n[Log]\r\nMsgClassParameters=1\r\nMsgClassData=0\r\nLogOptions=LogExtended\r\nMsgClassFull=0\r\nAutoLog=0\r\n[ThinkTime]\r\nOptions=RANDOM\r\nFactor=1.000000\r\nThinkTimeRandomHigh=120\r\nThinkTimeRandomLow=80\r\nLimit=1\r\nLimitFlag=0\r\n
 ConfigUsp=[RunLogicEndRoot:vuser_end]\r\nMercIniTreeSectionName="vuser_end"\r\nRunLogicObjectKind="Action"\r\nName="vuser_end"\r\nMercIniTreeFather="RunLogicEndRoot"\r\nRunLogicActionType="VuserEnd"\r\n[RunLogicInitRoot:vuser_init]\r\nMercIniTreeSectionName="vuser_init"\r\nRunLogicObjectKind="Action"\r\nName="vuser_init"\r\nMercIniTreeFather="RunLogicInitRoot"\r\nRunLogicActionType="VuserInit"\r\n[RunLogicRunRoot:Action]\r\nMercIniTreeSectionName="Action"\r\nRunLogicObjectKind="Action"\r\nName="Action"\r\nMercIniTreeFather="RunLogicRunRoot"\r\nRunLogicActionType="VuserRun"\r\n[RunLogicErrorHandlerRoot:vuser_errorhandler]\r\nMercIniTreeSectionName="vuser_errorhandler"\r\nRunLogicObjectKind="Action"\r\nName="vuser_errorhandler"\r\nMercIniTreeFather="RunLogicErrorHandlerRoot"\r\nRunLogicActionType="VuserErrorHandler"\r\n[Profile Actions]\r\nMercIniTreeSectionName="Profile Actions"\r\nProfile Actions name=vuser_init,Action,vuser_end\r\nMercIniTreeFather=""\r\n[RunLogicRunRoot]\r\nRunLogicPaceConstTime="60.000"\r\nRunLogicRandomPaceMax="90.000"\r\nRunLogicActionOrder="Action"\r\nRunLogicAfterPaceMax="3.000"\r\nMercIniTreeFather=""\r\nRunLogicPaceType="After"\r\nMercIniTreeSons="Action"\r\nRunLogicNumOfIterations="1"\r\nRunLogicAfterPaceMin="1.000"\r\nName="Run"\r\nRunLogicPaceConstAfterTime="60.000"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserRun"\r\nRunLogicRandomPaceMin="60.000"\r\nMercIniTreeSectionName="RunLogicRunRoot"\r\n[RunLogicErrorHandlerRoot]\r\nRunLogicActionOrder="vuser_errorhandler"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_errorhandler"\r\nRunLogicNumOfIterations="1"\r\nName="ErrorHandler"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserErrorHandler"\r\nMercIniTreeSectionName="RunLogicErrorHandlerRoot"\r\n[RunLogicEndRoot]\r\nRunLogicActionOrder="vuser_end"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_end"\r\nRunLogicNumOfIterations="1"\r\nName="End"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserEnd"\r\nMercIniTreeSectionName="RunLogicEndRoot"\r\n[RunLogicInitRoot]\r\nRunLogicActionOrder="vuser_init"\r\nMercIniTreeFather=""\r\nMercIniTreeSons="vuser_init"\r\nRunLogicNumOfIterations="1"\r\nName="Init"\r\nRunLogicRunMode="Sequential"\r\nRunLogicObjectKind="Group"\r\nRunLogicActionType="VuserInit"\r\nMercIniTreeSectionName="RunLogicInitRoot"\r\n
 Param=
 TDPath=
@@ -206,37 +206,7 @@ Trans=_TIVApp_001_My_Test
 
 {TIVApp_001_My_Test_02
 
-{4
-5=tivapp_001_my_test_02
-9=localhost
-SEED_NUM=0
-}
-
-{3
-5=tivapp_001_my_test_02
-9=localhost
-SEED_NUM=0
-}
-
-{2
-5=tivapp_001_my_test_02
-9=localhost
-SEED_NUM=0
-}
-
-{1
-5=tivapp_001_my_test_02
-9=localhost
-SEED_NUM=0
-}
-
 {10
-5=tivapp_001_my_test_02
-9=localhost
-SEED_NUM=0
-}
-
-{9
 5=tivapp_001_my_test_02
 9=localhost
 SEED_NUM=0
@@ -483,10 +453,10 @@ Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
 MeasurementCount=2
-Measurement_0=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_0=tivapp_001_my_test_02:Action:13
-Measurement_1=|||2|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
-MeasurementFullPath_1=tivapp_001_my_test_02::0
+Measurement_0=|||26|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_0=tivapp_001_my_test_02:Action:83
+Measurement_1=|||0|||0|||1|||Not_In_Use|||0|||-1|||es_tr_errors_distribution
+MeasurementFullPath_1=tivapp_001_my_test_02:Action:13
 Description=Displays details about the number of errors that accrue during each second of the scenario or session step run.
 [4]
 MeasurementsDelimiter=|||
@@ -526,8 +496,8 @@ Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
 MeasurementCount=2
-Measurement_0=|||4|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
-MeasurementFullPath_0=tivapp_001_my_test_02::0
+Measurement_0=|||27|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
+MeasurementFullPath_0=tivapp_001_my_test_02:Action:83
 Measurement_1=|||1|||0|||1|||Not_In_Use|||0|||-1|||es_tr_vusers_errors_distribution
 MeasurementFullPath_1=tivapp_001_my_test_02:Action:13
 Description=Displays details about the number of Vusers that generate errors during scenario or session step execution.
@@ -568,9 +538,11 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=1
-Measurement_0=|||9|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
-MeasurementFullPath_0=_TIVApp_001_My_Test
+MeasurementCount=2
+Measurement_0=|||24|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_0=TIVApp_001_001_Homepage
+Measurement_1=|||9|||0|||1|||Not_In_Use|||0|||-1|||es_tr_response_time
+MeasurementFullPath_1=_TIVApp_001_My_Test
 Description=Displays the average time taken to perform transactions during each second of the load test. This graph helps you determine whether the performance of the server is within acceptable minimum and maximum transaction performance time ranges defined for your system.
 [6]
 MeasurementsDelimiter=|||
@@ -609,9 +581,11 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=1
+MeasurementCount=2
 Measurement_0=|||18|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
 MeasurementFullPath_0=_TIVApp_001_My_Test
+Measurement_1=|||22|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_pass
+MeasurementFullPath_1=TIVApp_001_001_Homepage
 Description=Displays the number of successful transactions  performed during each second of a load test. This graph helps you determine the actual transaction load on your system at any given moment.
 [7]
 MeasurementsDelimiter=|||
@@ -650,9 +624,11 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=1
-Measurement_0=|||10|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
-MeasurementFullPath_0=TIVApp_001_001_Homepage::Failed
+MeasurementCount=2
+Measurement_0=|||25|||0|||1|||Not_In_Use|||0|||-1|||es_tr_aborted
+MeasurementFullPath_0=_TIVApp_001_My_Test::Stopped
+Measurement_1=|||10|||0|||1|||Not_In_Use|||0|||-1|||es_tr_tprange_fail
+MeasurementFullPath_1=TIVApp_001_001_Homepage::Failed
 Description=Displays the number of unsuccessful transactions  performed during each second of a load test.
 [8]
 MeasurementsDelimiter=|||
@@ -693,7 +669,9 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=0
+MeasurementCount=1
+Measurement_0=|||25|||0|||1|||Not_In_Use|||0|||-1|||es_tr_aborted
+MeasurementFullPath_0=_TIVApp_001_My_Test::Stopped
 Description=Displays the number of aborted transactions  performed during each second of a load test.
 [9]
 MeasurementsDelimiter=|||
@@ -775,9 +753,11 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=1
+MeasurementCount=2
 Measurement_0=|||7|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
 MeasurementFullPath_0=_TIVApp_001_My_Test
+Measurement_1=|||23|||0|||1|||Not_In_Use|||0|||-1|||es_tr_trpass
+MeasurementFullPath_1=TIVApp_001_001_Homepage
 Description=Total Pass transaction graph
 [11]
 MeasurementsDelimiter=|||
@@ -859,7 +839,9 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=0
+MeasurementCount=1
+Measurement_0=|||21|||0|||1|||Not_In_Use|||0|||-1|||es_tr_traborted
+MeasurementFullPath_0=_TIVApp_001_My_Test
 Description=Total Stopped transactions graph
 [13]
 MeasurementsDelimiter=|||
@@ -882,7 +864,7 @@ AnySubPathAtStart=-1
 OpenChildGraph=0
 KeepLegendSort=0
 LegendSortDirection=1
-LegendUserMovedColumn=-1
+LegendUserMovedColumn=0
 XAxisLabelsStyle=RelativeTime
 Is_On_Panel=3
 SampleRate=5
@@ -984,7 +966,9 @@ OverlayGraph=0
 Auto_Y_Scale=1
 DefaultMsrAutoScale=0
 Granularities=-1
-MeasurementCount=0
+MeasurementCount=1
+Measurement_0=|||1|||0|||1|||Not_In_Use|||0|||-1|||mic_recv
+MeasurementFullPath_0=mic_recv
 Description=Displays the amount of throughput (in bytes) on the Web server during the load test. Throughput represents the amount of data that the Vusers received from the server at any given second. This graph helps you to evaluate the amount of load Vusers generate, in terms of server throughput.
 [16]
 MeasurementsDelimiter=|||
@@ -4151,7 +4135,7 @@ ItemsNumber=IntV1|0
 }
 
 {ScenarioDiagnostics
-XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="538e453ce" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
+XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "OracleDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type= "WebPage" enabled= "1" ></Mediator><Mediator type= "J2EE" enabled= "0" ></Mediator><Mediator type= "SiebelDB" enabled= "0" ><Machine name = "" type = "Win2000" ><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY></TOPOLOGY></Mediator><Mediator type="SAP" enabled="0"><Machine name="" type="Win2000"><Connection><Firewall enabled="0" listener=""/></Connection></Machine><TOPOLOGY><SERVER host="" instance="" RouterString=""><LOGIN username="" password="538f2868e" client_num=""/></SERVER></TOPOLOGY></Mediator></Mediators>
 }
 
 {ScenarioAlertsConfig
@@ -4185,9 +4169,9 @@ XMLData=<Mediators distribution = "1" enabled= "1" ><Mediator type= "SARM" enabl
                 </StartCondition>
                 <Batch>
                   <Count>1</Count>
-                  <Interval>1</Interval>
+                  <Interval>5</Interval>
                 </Batch>
-                <TotalVusersNumber>10</TotalVusersNumber>
+                <TotalVusersNumber>5</TotalVusersNumber>
               </RampUp>
               <Duration>
                 <StartCondition>

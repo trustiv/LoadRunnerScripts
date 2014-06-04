@@ -13,9 +13,5 @@
 #endif // _GLOBALS_H
 
 //----------------------------
-// Define our local test function library
-// If it hasn't already been inclided
-#ifndef _LIB_HPD_H
-	#include "..\includes\Lib-hpd-01.c"
-#endif //_LIB_HPH_H
+
 
