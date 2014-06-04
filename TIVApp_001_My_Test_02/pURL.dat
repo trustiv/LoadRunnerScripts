@@ -1,0 +1,5 @@
+pURL,pSiteDescription
+127.0.0.1,PreProd-LoadBalanced
+127.0.0.1:8081,Preprod Server 1
+127.0.0.1:8082,Preprod Server 2
+127.0.0.1:8080,SIT Environment

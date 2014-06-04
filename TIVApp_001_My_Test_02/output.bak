@@ -1,0 +1,277 @@
+Virtual User Script started at : 6/3/2014 10:54:59 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Data\LoadRunnerScripts\TIVApp_001_My_Test_02\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(56): Notify: Saving Parameter "pVUID = None:-1".
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26000]
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+..\\includes\\Lib-hpd-01.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(41): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(41): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(47): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(47): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(53): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(53): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(59): Notify: Saving Parameter "pTransactionName = TIVApp_001_001_Homepage".
+..\\includes\\Lib-hpd-01.c(61): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+..\\includes\\Lib-hpd-01.c(61): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(12): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(12): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1:8081"
+Action.c(12): Notify: Saving Parameter "cPageTitle = HPD0001".
+Action.c(12): Notify: Saving Parameter "cVersion = V0.2".
+Action.c(12): Found resource "http://127.0.0.1:8081/TrustiV-4k.jpg" in HTML "http://127.0.0.1:8081/"  	[MsgId: MMSG-26659]
+Action.c(12): Warning -26377: No match found for the requested parameter "cServerName". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cServerName = ".
+Action.c(12): Warning -26377: No match found for the requested parameter "cErr". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cErr = ".
+Action.c(12): web_url("Homepage") highest severity level was "warning", 6741 body bytes, 569 header bytes  	[MsgId: MMSG-26388]
+vuser_init.c(7): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(9): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(9): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Fail" status (Duration: 0.1306 Wasted Time: 0.0998).
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cServerName" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cVersion" =  "V0.2"
+vuser_init.c(13): Error: TIVErr: Error found Server:, Page:HPD0001, Error: , Version:V0.2
+vuser_init.c(28): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(28): Notify: Parameter Substitution: parameter "cServerName" =  ""
+TIVMsg: TIVApp_001_001_Homepage loaded via server: 
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "pVUID" =  "None:-1"
+..\\includes\\Lib-hpd-01.c(81): Warning: The string 'cServer' with parameter delimiters is not a parameter.
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cErr" =  ""
+Action.c(23): Notify: Transaction "_TIVApp_001_My_Test" ended with "Pass" status (Duration: 0.2338 Wasted Time: 0.1818).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+..\\includes\\Lib-hpd-01.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(41): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(41): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(47): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(47): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(53): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(53): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(59): Notify: Saving Parameter "pTransactionName = TIVApp_001_001_Homepage".
+..\\includes\\Lib-hpd-01.c(61): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+..\\includes\\Lib-hpd-01.c(61): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(12): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(12): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1:8081"
+Action.c(12): Notify: Saving Parameter "cPageTitle = HPD0001".
+Action.c(12): Notify: Saving Parameter "cVersion = V0.2".
+Action.c(12): Found resource "http://127.0.0.1:8081/TrustiV-4k.jpg" in HTML "http://127.0.0.1:8081/"  	[MsgId: MMSG-26659]
+Action.c(12): Warning -26377: No match found for the requested parameter "cServerName". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cServerName = ".
+Action.c(12): Warning -26377: No match found for the requested parameter "cErr". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cErr = ".
+Action.c(12): web_url("Homepage") highest severity level was "warning", 6741 body bytes, 569 header bytes  	[MsgId: MMSG-26388]
+vuser_init.c(7): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(9): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(9): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Fail" status (Duration: 0.0320 Wasted Time: 0.0096).
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cServerName" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cVersion" =  "V0.2"
+vuser_init.c(13): Error: TIVErr: Error found Server:, Page:HPD0001, Error: , Version:V0.2
+vuser_init.c(28): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(28): Notify: Parameter Substitution: parameter "cServerName" =  ""
+TIVMsg: TIVApp_001_001_Homepage loaded via server: 
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "pVUID" =  "None:-1"
+..\\includes\\Lib-hpd-01.c(81): Warning: The string 'cServer' with parameter delimiters is not a parameter.
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cErr" =  ""
+Action.c(23): Notify: Transaction "_TIVApp_001_My_Test" ended with "Pass" status (Duration: 0.0577 Wasted Time: 0.0302).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+..\\includes\\Lib-hpd-01.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(41): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(41): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(47): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(47): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(53): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(53): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(59): Notify: Saving Parameter "pTransactionName = TIVApp_001_001_Homepage".
+..\\includes\\Lib-hpd-01.c(61): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+..\\includes\\Lib-hpd-01.c(61): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(12): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(12): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1:8081"
+Action.c(12): Notify: Saving Parameter "cPageTitle = HPD0001".
+Action.c(12): Notify: Saving Parameter "cVersion = V0.2".
+Action.c(12): Found resource "http://127.0.0.1:8081/TrustiV-4k.jpg" in HTML "http://127.0.0.1:8081/"  	[MsgId: MMSG-26659]
+Action.c(12): Warning -26377: No match found for the requested parameter "cServerName". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cServerName = ".
+Action.c(12): Warning -26377: No match found for the requested parameter "cErr". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cErr = ".
+Action.c(12): web_url("Homepage") highest severity level was "warning", 6741 body bytes, 569 header bytes  	[MsgId: MMSG-26388]
+vuser_init.c(7): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(9): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(9): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Fail" status (Duration: 0.0532 Wasted Time: 0.0059).
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cServerName" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cVersion" =  "V0.2"
+vuser_init.c(13): Error: TIVErr: Error found Server:, Page:HPD0001, Error: , Version:V0.2
+vuser_init.c(28): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(28): Notify: Parameter Substitution: parameter "cServerName" =  ""
+TIVMsg: TIVApp_001_001_Homepage loaded via server: 
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "pVUID" =  "None:-1"
+..\\includes\\Lib-hpd-01.c(81): Warning: The string 'cServer' with parameter delimiters is not a parameter.
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cErr" =  ""
+Action.c(23): Notify: Transaction "_TIVApp_001_My_Test" ended with "Pass" status (Duration: 0.0669 Wasted Time: 0.0117).
+Ending action Action.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+..\\includes\\Lib-hpd-01.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(41): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(41): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(47): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(47): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(53): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(53): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(59): Notify: Saving Parameter "pTransactionName = TIVApp_001_001_Homepage".
+..\\includes\\Lib-hpd-01.c(61): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+..\\includes\\Lib-hpd-01.c(61): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(12): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(12): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1:8081"
+Action.c(12): Notify: Saving Parameter "cPageTitle = HPD0001".
+Action.c(12): Notify: Saving Parameter "cVersion = V0.2".
+Action.c(12): Found resource "http://127.0.0.1:8081/TrustiV-4k.jpg" in HTML "http://127.0.0.1:8081/"  	[MsgId: MMSG-26659]
+Action.c(12): Warning -26377: No match found for the requested parameter "cServerName". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cServerName = ".
+Action.c(12): Warning -26377: No match found for the requested parameter "cErr". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cErr = ".
+Action.c(12): web_url("Homepage") highest severity level was "warning", 6741 body bytes, 569 header bytes  	[MsgId: MMSG-26388]
+vuser_init.c(7): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(9): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(9): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Fail" status (Duration: 0.0374 Wasted Time: 0.0068).
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cServerName" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cVersion" =  "V0.2"
+vuser_init.c(13): Error: TIVErr: Error found Server:, Page:HPD0001, Error: , Version:V0.2
+vuser_init.c(28): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(28): Notify: Parameter Substitution: parameter "cServerName" =  ""
+TIVMsg: TIVApp_001_001_Homepage loaded via server: 
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "pVUID" =  "None:-1"
+..\\includes\\Lib-hpd-01.c(81): Warning: The string 'cServer' with parameter delimiters is not a parameter.
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cErr" =  ""
+Action.c(23): Notify: Transaction "_TIVApp_001_My_Test" ended with "Pass" status (Duration: 0.0561 Wasted Time: 0.0200).
+Ending action Action.
+Ending iteration 4.
+Starting iteration 5.
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+..\\includes\\Lib-hpd-01.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(41): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(41): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(47): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(47): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(53): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(53): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(59): Notify: Saving Parameter "pTransactionName = TIVApp_001_001_Homepage".
+..\\includes\\Lib-hpd-01.c(61): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+..\\includes\\Lib-hpd-01.c(61): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(12): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(12): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1:8081"
+Action.c(12): Notify: Saving Parameter "cPageTitle = HPD0001".
+Action.c(12): Notify: Saving Parameter "cVersion = V0.2".
+Action.c(12): Found resource "http://127.0.0.1:8081/TrustiV-4k.jpg" in HTML "http://127.0.0.1:8081/"  	[MsgId: MMSG-26659]
+Action.c(12): Warning -26377: No match found for the requested parameter "cServerName". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cServerName = ".
+Action.c(12): Warning -26377: No match found for the requested parameter "cErr". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cErr = ".
+Action.c(12): web_url("Homepage") highest severity level was "warning", 6741 body bytes, 569 header bytes  	[MsgId: MMSG-26388]
+vuser_init.c(7): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(9): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(9): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Fail" status (Duration: 0.0713 Wasted Time: 0.0147).
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cServerName" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cVersion" =  "V0.2"
+vuser_init.c(13): Error: TIVErr: Error found Server:, Page:HPD0001, Error: , Version:V0.2
+vuser_init.c(28): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(28): Notify: Parameter Substitution: parameter "cServerName" =  ""
+TIVMsg: TIVApp_001_001_Homepage loaded via server: 
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "pVUID" =  "None:-1"
+..\\includes\\Lib-hpd-01.c(81): Warning: The string 'cServer' with parameter delimiters is not a parameter.
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cErr" =  ""
+Action.c(23): Notify: Transaction "_TIVApp_001_My_Test" ended with "Pass" status (Duration: 0.1193 Wasted Time: 0.0202).
+Ending action Action.
+Ending iteration 5.
+Starting iteration 6.
+Starting action Action.
+Action.c(5): web_cleanup_cookies started  	[MsgId: MMSG-26355]
+Action.c(5): web_cleanup_cookies was successful  	[MsgId: MMSG-26392]
+Action.c(7): Notify: Transaction "_TIVApp_001_My_Test" started.
+..\\includes\\Lib-hpd-01.c(31): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(31): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(41): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(41): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(47): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(47): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(53): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\Lib-hpd-01.c(53): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\Lib-hpd-01.c(59): Notify: Saving Parameter "pTransactionName = TIVApp_001_001_Homepage".
+..\\includes\\Lib-hpd-01.c(61): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+..\\includes\\Lib-hpd-01.c(61): Notify: Transaction "TIVApp_001_001_Homepage" started.
+Action.c(12): web_url("Homepage") started  	[MsgId: MMSG-26355]
+Action.c(12): Notify: Parameter Substitution: parameter "pURL" =  "127.0.0.1:8081"
+Action.c(12): Notify: Saving Parameter "cPageTitle = HPD0001".
+Action.c(12): Notify: Saving Parameter "cVersion = V0.2".
+Action.c(12): Found resource "http://127.0.0.1:8081/TrustiV-4k.jpg" in HTML "http://127.0.0.1:8081/"  	[MsgId: MMSG-26659]
+Action.c(12): Warning -26377: No match found for the requested parameter "cServerName". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cServerName = ".
+Action.c(12): Warning -26377: No match found for the requested parameter "cErr". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MWAR-26377]
+Action.c(12): Notify: Saving Parameter "cErr = ".
+Action.c(12): web_url("Homepage") highest severity level was "warning", 6741 body bytes, 569 header bytes  	[MsgId: MMSG-26388]
+vuser_init.c(7): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(9): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(9): Notify: Transaction "TIVApp_001_001_Homepage" ended with "Fail" status (Duration: 0.0430 Wasted Time: 0.0098).
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cServerName" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cErr" =  ""
+vuser_init.c(13): Notify: Parameter Substitution: parameter "cVersion" =  "V0.2"
+vuser_init.c(13): Error: TIVErr: Error found Server:, Page:HPD0001, Error: , Version:V0.2
+vuser_init.c(28): Notify: Parameter Substitution: parameter "pTransactionName" =  "TIVApp_001_001_Homepage"
+vuser_init.c(28): Notify: Parameter Substitution: parameter "cServerName" =  ""
+TIVMsg: TIVApp_001_001_Homepage loaded via server: 
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "pVUID" =  "None:-1"
+..\\includes\\Lib-hpd-01.c(81): Warning: The string 'cServer' with parameter delimiters is not a parameter.
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cPageTitle" =  "HPD0001"
+..\\includes\\Lib-hpd-01.c(81): Notify: Parameter Substitution: parameter "cErr" =  ""
+Action.c(23): Notify: Transaction "_TIVApp_001_My_Test" ended with "Pass" status (Duration: 0.0578 Wasted Time: 0.0181).
+Ending action Action.
+Ending iteration 6.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
