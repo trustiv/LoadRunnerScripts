@@ -1,0 +1,22 @@
+Virtual User Script started at : 06/06/2014 12:52:48
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Data\LoadRunnerScripts\Includemalloctest_01\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+..\\includes\\malloctest.c(31): TIVMsg: Group name: None:-1
+..\\includes\\malloctest.c(45): TIVMsg: LB:LB/IC=<title>
+..\\includes\\malloctest.c(54): TIVMsg: RB:RB/IC=</title>
+..\\includes\\malloctest.c(57): web_reg_save_param started  	[MsgId: MMSG-26355]
+..\\includes\\malloctest.c(57): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+..\\includes\\malloctest.c(9): Foobar was a bar fighter
+Ending action Action.
+Error -27257: Pending web_reg_save_param/reg_find/create_html_param[_ex] request(s) detected and reset at the end of iteration number 1  	[MsgId: MERR-27257]
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

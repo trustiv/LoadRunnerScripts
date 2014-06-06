@@ -1,0 +1,22 @@
+Virtual User Script started at : 06/06/2014 12:50:01
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 8; build 1362 (Feb  2 2014 23:20:03)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Data\LoadRunnerScripts\Includemalloctest\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(17): TIVMsg: Group name: None:-1
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 2  	[MsgId: MMSG-26000]
+Starting action Action.
+vuser_init.c(47): TIVMsg: LB:LB/IC=<title>
+vuser_init.c(56): TIVMsg: RB:
+vuser_init.c(59): web_reg_save_param started  	[MsgId: MMSG-26355]
+vuser_init.c(59): Error -27216: Invalid argument (number 3)  	[MsgId: MERR-27216]
+vuser_init.c(59): Registering web_reg_save_param highest severity level was "ERROR"  	[MsgId: MMSG-26389]
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
